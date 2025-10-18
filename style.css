@@ -343,7 +343,7 @@ a[href*="zellepay"] {
 
 /***********************
  * CONTACT & FOOTER (FIXED FOR CENTERING)
- ***********************/
+***********************/
 #contact { 
     text-align: center; /* Centers H2 and any inline elements */
 }
@@ -361,7 +361,6 @@ footer {
 }
 footer p { margin-bottom: 0.5rem; }
 footer p:first-child { font-style: italic; }
-
 /***********************
  * RESPONSIVE DESIGN
  ***********************/
