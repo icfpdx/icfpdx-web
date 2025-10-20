@@ -62,19 +62,19 @@ function setSeasonTheme() {
   if ([2, 3, 4].includes(month)) {
     // March, April, May
     body.classList.add("spring");
-    if (hero) hero.style.backgroundImage = "url('spring-blossoms.jpg')";
+    if (hero) hero.style.backgroundImage = "url('images/spring-blossoms.jpg')";
   } else if ([5, 6, 7].includes(month)) {
     // June, July, August
     body.classList.add("summer");
-    if (hero) hero.style.backgroundImage = "url('summer-floral.jpg.png')";
+    if (hero) hero.style.backgroundImage = "url('images/summer-floral.jpg')";
   } else if ([8, 9, 10].includes(month)) {
     // September, October, November
     body.classList.add("fall");
-    if (hero) hero.style.backgroundImage = "url('fall-leaves.jpg.png')";
+    if (hero) hero.style.backgroundImage = "url('images/fall-leaves.jpg')";
   } else {
     // December, January, February
     body.classList.add("winter");
-    if (hero) hero.style.backgroundImage = "url('winter-snow.jpg.png')";
+    if (hero) hero.style.backgroundImage = "url('images/winter-snow.jpg')";
   }
 }
 
